@@ -71,7 +71,7 @@ def video_attack(proxies):
         i = i + 1
 
 def profile_attack(proxies):
-    username = ask_question("Enter the username of the person you want to report")
+    username = ask_question("paddy__1904")
     print(Style.RESET_ALL)
     if (len(proxies) == 0):
         global k
@@ -102,7 +102,7 @@ def main():
     proxies = []
 
     if (ret == "Y" or ret == "y"):
-        ret = ask_question("Do you want to collect your proxies from the internet? [Y/N]")
+        ret = ask_question("Do you want to collect your proxies from the internet? [Y]")
 
         if (ret == "Y" or ret == "y"):
             print_status("Collecting proxy from the Internet! this may take a while.\n")
