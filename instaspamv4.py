@@ -27,7 +27,7 @@ def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
-def profile_attack_process(username, proxy_list):
+def profile_attack_process(paddy__1904, proxy_list):
     if (len(proxy_list) == 0):
         for _ in range(10):
             report_profile_attack(username, None)
@@ -71,7 +71,7 @@ def video_attack(proxies):
         i = i + 1
 
 def profile_attack(proxies):
-    username = ask_question("Enter the username of the person you want to report")
+    username = ask_question("paddy__1904")
     print(Style.RESET_ALL)
     if (len(proxies) == 0):
         global k
